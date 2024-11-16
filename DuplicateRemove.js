@@ -13,3 +13,5 @@ for(let i=0;i<arr.length;i++){
     }
 }
 console.log("Removing all Duplicate",newArr)
+// using ES6 Js duplicate remove
+console.log(...new Set(arr))
